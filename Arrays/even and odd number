@@ -1,0 +1,13 @@
+arr = [4 , 6 , 7, 9 ,2 ]
+
+even = 0
+odd = 0
+
+for num in arr :
+ if num % 2 == 0:
+  even += 1 
+ else :
+  odd += 1
+
+print("Even number:",even)
+print("Odd number:",odd)
