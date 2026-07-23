@@ -1,0 +1,13 @@
+num = [-5 , 10 , 17 , -8 ]
+_positivecount = 0
+_negativecount = 0
+
+for number in num:
+    if number < 0:
+      _negativecount += 1
+else:
+     _positivecount += 1
+
+print("Positive number:",_positivecount)
+print("Negative number:",_negativecount)
+
